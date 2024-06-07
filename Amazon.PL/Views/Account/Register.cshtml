@@ -1,0 +1,71 @@
+﻿@model Amazon.BL.Models.RegisterVM
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="~/assets/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container py-5 vh-100 justify-content-center align-items-center d-flex">
+        <form asp-controller="Account" asp-action="Register">
+
+            <div class="d-flex justify-content-center align-items-start">
+                <div class="w-75 containerOfInputsSignUp">
+                    <div class="container-fluid">
+                        <h1 class="text-center">Sign Up</h1>
+                        <div class="row py-5">
+
+                            <div class="col-lg-12 ">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text m-10 text-center justify-content-center bg-white " id="basic-addon2">Email</span>
+                                    <input type="email" asp-for="Email" class="form-control" placeholder="Enter Your Email Address" id="emailAdress" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                                <span asp-validation-for="Email" class="text-danger"></span>
+
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text m-10 text-center justify-content-center bg-white " id="basic-addon2">Password</span>
+                                    <input type="password" asp-for="Password" class="form-control" placeholder="Enter Your Password" id="PasswordElement" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                                <span asp-validation-for="Password" class="text-danger"></span>
+
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text m-10 text-center justify-content-center bg-white " id="basic-addon2"> Re-Password </span>
+                                    <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Enter Your Re-Password" id="Repassword" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
+                            </div>
+
+                            <div class="col-lg-11 m-auto py-5">
+                                <button class="btn text-white w-100 rounded-50 btn-primary" type="submit" id="BtnAccount">
+                                    Create Account
+                                </button>
+                                <div class="bg-danger rounded-3 mt-2 pt-1 w-50 m-auto d-none" id="errorsSubmite">
+                                    <p class="text-light text-center ">Must Enter Data valid</p>
+                                </div>
+                                <p class="text-center text-black my-1">Already Have an account ?<a asp-controller="" asp-action="" class="text-black text-decoration-none mx-2 Login_Register">Login</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

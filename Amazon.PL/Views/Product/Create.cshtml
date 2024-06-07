@@ -1,0 +1,78 @@
+﻿@model Amazon.BL.Models.ProductVM;
+
+@{
+    ViewData["Title"] = "Add Product";
+}
+<div>
+    <h2 class="form-control w-75 mx-auto py-4 text-center">Create New Product</h2>
+</div>
+
+<div class="py-4">
+    <h4 class=" w-75 mx-auto py-4 text-center text-success ">@TempData["SuccessMsg"]</h4>
+</div>
+
+<div class="py-4">
+    <h4 class=" w-75 mx-auto py-4 text-center text-danger ">@TempData["ErrorMsg"]</h4>
+</div>
+
+
+<form class="form-group" asp-controller="Product" asp-action="Create" enctype="multipart/form-data" >
+
+    @* <div asp-validation-summary="All" class="text-danger"></div> *@
+
+    <label asp-for="Title">Title</label>
+    <input type="text" class="form-control" asp-for="Title" />
+    <span asp-validation-for="Title" class="text-danger"></span>
+    <br />
+
+    <label asp-for="Slug">Slug</label>
+    <input type="text" class="form-control" asp-for="Slug" />
+    <span asp-validation-for="Slug" class="text-danger"></span>
+    <br />
+
+    <label asp-for="Description"></label>
+    <input type="text" class="form-control" asp-for="Description" />
+    <span asp-validation-for="Description" class="text-danger"></span>
+    <br />
+
+    <label asp-for="RatingsQuantity">RatingsQuantity</label>
+    <input type="number" class="form-control" asp-for="RatingsQuantity" />
+    <span asp-validation-for="RatingsQuantity" class="text-danger"></span>
+    <br />
+
+    <label asp-for="Price">Price</label>
+    <input type="number" class="form-control" asp-for="Price" />
+    <span asp-validation-for="Price" class="text-danger"></span>
+    <br />
+
+    <label asp-for="RatingsAverage">RatingsAverage</label>
+    <input type="number" class="form-control" asp-for="RatingsAverage"/>
+    <span asp-validation-for="RatingsAverage" class="text-danger"></span>
+    <br />
+
+    <select asp-for="BrandId" asp-items="(SelectList) ViewBag.BrandsList" class = "form-control">
+        <option>Choose Brand</option>
+    </select>
+    <br />
+
+    <select asp-for="CategoryId" asp-items="(SelectList) ViewBag.CategoryList" class="form-control">
+        <option>Choose Category</option>
+    </select>
+    <br />
+
+    <label asp-for="ImageCover">Upload Cover</label>
+    <input type="file" class="form-control" asp-for="ImageCover" />
+    <span asp-validation-for="ImageCover" class="text-danger"></span>
+    <br />
+
+    <label asp-for="Images">Upload Images</label>
+    <input type="file" class="form-control" asp-for="Images" multiple />
+    <span asp-validation-for="ImageCover" class="text-danger"></span>
+    <br />
+
+    <center>
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <input type="reset" value="Cancle" class="btn btn-danger" />
+    </center>
+
+</form>

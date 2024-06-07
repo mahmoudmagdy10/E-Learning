@@ -1,0 +1,14 @@
+D:\Amazon-BackEnd\Amazon.DAL\bin\Debug\net6.0\Amazon.DAL.deps.json
+D:\Amazon-BackEnd\Amazon.DAL\bin\Debug\net6.0\Amazon.DAL.runtimeconfig.json
+D:\Amazon-BackEnd\Amazon.DAL\bin\Debug\net6.0\Amazon.DAL.dll
+D:\Amazon-BackEnd\Amazon.DAL\bin\Debug\net6.0\Amazon.DAL.pdb
+D:\Amazon-BackEnd\Amazon.DAL\obj\Debug\net6.0\Amazon.DAL.csproj.AssemblyReference.cache
+D:\Amazon-BackEnd\Amazon.DAL\obj\Debug\net6.0\Amazon.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Amazon-BackEnd\Amazon.DAL\obj\Debug\net6.0\Amazon.DAL.AssemblyInfoInputs.cache
+D:\Amazon-BackEnd\Amazon.DAL\obj\Debug\net6.0\Amazon.DAL.AssemblyInfo.cs
+D:\Amazon-BackEnd\Amazon.DAL\obj\Debug\net6.0\Amazon.DAL.csproj.CoreCompileInputs.cache
+D:\Amazon-BackEnd\Amazon.DAL\obj\Debug\net6.0\Amazon.DAL.dll
+D:\Amazon-BackEnd\Amazon.DAL\obj\Debug\net6.0\refint\Amazon.DAL.dll
+D:\Amazon-BackEnd\Amazon.DAL\obj\Debug\net6.0\Amazon.DAL.pdb
+D:\Amazon-BackEnd\Amazon.DAL\obj\Debug\net6.0\Amazon.DAL.genruntimeconfig.cache
+D:\Amazon-BackEnd\Amazon.DAL\obj\Debug\net6.0\ref\Amazon.DAL.dll

@@ -1,0 +1,15 @@
+D:\Amazon-BackEnd\Amazon.BL\bin\Debug\net6.0\Amazon.BL.deps.json
+D:\Amazon-BackEnd\Amazon.BL\bin\Debug\net6.0\Amazon.BL.dll
+D:\Amazon-BackEnd\Amazon.BL\bin\Debug\net6.0\Amazon.BL.pdb
+D:\Amazon-BackEnd\Amazon.BL\bin\Debug\net6.0\Amazon.DAL.dll
+D:\Amazon-BackEnd\Amazon.BL\bin\Debug\net6.0\Amazon.DAL.pdb
+D:\Amazon-BackEnd\Amazon.BL\obj\Debug\net6.0\Amazon.BL.csproj.AssemblyReference.cache
+D:\Amazon-BackEnd\Amazon.BL\obj\Debug\net6.0\Amazon.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Amazon-BackEnd\Amazon.BL\obj\Debug\net6.0\Amazon.BL.AssemblyInfoInputs.cache
+D:\Amazon-BackEnd\Amazon.BL\obj\Debug\net6.0\Amazon.BL.AssemblyInfo.cs
+D:\Amazon-BackEnd\Amazon.BL\obj\Debug\net6.0\Amazon.BL.csproj.CoreCompileInputs.cache
+D:\Amazon-BackEnd\Amazon.BL\obj\Debug\net6.0\Amazon.BL.csproj.Up2Date
+D:\Amazon-BackEnd\Amazon.BL\obj\Debug\net6.0\Amazon.BL.dll
+D:\Amazon-BackEnd\Amazon.BL\obj\Debug\net6.0\refint\Amazon.BL.dll
+D:\Amazon-BackEnd\Amazon.BL\obj\Debug\net6.0\Amazon.BL.pdb
+D:\Amazon-BackEnd\Amazon.BL\obj\Debug\net6.0\ref\Amazon.BL.dll

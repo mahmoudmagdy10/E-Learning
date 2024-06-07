@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Amazon-BackEnd\\Amazon.PL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|d:\\amazon-backend\\amazon.pl\\wwwroot\\css\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|solutionrelative:wwwroot\\css\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|d:\\amazon-backend\\amazon.pl\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|d:\\amazon-backend\\amazon.pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|d:\\amazon-backend\\amazon.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18EB6E1D-A360-45FD-8F31-07CD94FA7A65}|..\\Amazon.BL\\Amazon.BL.csproj|d:\\amazon-backend\\amazon.bl\\repository\\cartrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|d:\\amazon-backend\\amazon.pl\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18EB6E1D-A360-45FD-8F31-07CD94FA7A65}|..\\Amazon.BL\\Amazon.BL.csproj|d:\\amazon-backend\\amazon.bl\\interface\\icartrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32758957-F621-416A-A11C-9037E2F225DD}|..\\Amazon.DAL\\Amazon.DAL.csproj|d:\\amazon-backend\\amazon.dal\\entity\\cartproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|d:\\amazon-backend\\amazon.pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C2F5B02-D57F-498C-9634-42D84E21D0AD}|Amazon.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18EB6E1D-A360-45FD-8F31-07CD94FA7A65}|..\\Amazon.BL\\Amazon.BL.csproj|d:\\amazon-backend\\amazon.bl\\repository\\productrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Amazon-BackEnd\\Amazon.PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Amazon-BackEnd\\Amazon.PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T23:56:57.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cart.css",
+              "DocumentMoniker": "D:\\Amazon-BackEnd\\Amazon.PL\\wwwroot\\css\\Cart.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Cart.css",
+              "ToolTip": "D:\\Amazon-BackEnd\\Amazon.PL\\wwwroot\\css\\Cart.css",
+              "RelativeToolTip": "wwwroot\\css\\Cart.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-25T23:56:05.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Amazon-BackEnd\\Amazon.PL\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Amazon-BackEnd\\Amazon.PL\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T20:00:50.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Amazon-BackEnd\\Amazon.PL\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\Amazon-BackEnd\\Amazon.PL\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T21:46:41.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICartRep.cs",
+              "DocumentMoniker": "D:\\Amazon-BackEnd\\Amazon.BL\\Interface\\ICartRep.cs",
+              "RelativeDocumentMoniker": "..\\Amazon.BL\\Interface\\ICartRep.cs",
+              "ToolTip": "D:\\Amazon-BackEnd\\Amazon.BL\\Interface\\ICartRep.cs",
+              "RelativeToolTip": "..\\Amazon.BL\\Interface\\ICartRep.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:44:00.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartRep.cs",
+              "DocumentMoniker": "D:\\Amazon-BackEnd\\Amazon.BL\\Repository\\CartRep.cs",
+              "RelativeDocumentMoniker": "..\\Amazon.BL\\Repository\\CartRep.cs",
+              "ToolTip": "D:\\Amazon-BackEnd\\Amazon.BL\\Repository\\CartRep.cs",
+              "RelativeToolTip": "..\\Amazon.BL\\Repository\\CartRep.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwF0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T22:22:55.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Amazon-BackEnd\\Amazon.PL\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "D:\\Amazon-BackEnd\\Amazon.PL\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T21:47:03.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductRep.cs",
+              "DocumentMoniker": "D:\\Amazon-BackEnd\\Amazon.BL\\Repository\\ProductRep.cs",
+              "RelativeDocumentMoniker": "..\\Amazon.BL\\Repository\\ProductRep.cs",
+              "ToolTip": "D:\\Amazon-BackEnd\\Amazon.BL\\Repository\\ProductRep.cs",
+              "RelativeToolTip": "..\\Amazon.BL\\Repository\\ProductRep.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T21:50:01.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartProduct.cs",
+              "DocumentMoniker": "D:\\Amazon-BackEnd\\Amazon.DAL\\Entity\\CartProduct.cs",
+              "RelativeDocumentMoniker": "..\\Amazon.DAL\\Entity\\CartProduct.cs",
+              "ToolTip": "D:\\Amazon-BackEnd\\Amazon.DAL\\Entity\\CartProduct.cs",
+              "RelativeToolTip": "..\\Amazon.DAL\\Entity\\CartProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T21:48:08.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Amazon-BackEnd\\Amazon.PL\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Amazon-BackEnd\\Amazon.PL\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T21:10:56.65Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

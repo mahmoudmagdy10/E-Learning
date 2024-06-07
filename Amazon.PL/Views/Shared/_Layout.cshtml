@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Amazon.PL.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    @await RenderSectionAsync("css", required: false)
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container">
+      <a class="navbar-brand" href="#">FreshCart</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" asp-controller="Product" asp-action="Index">Products</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" asp-controller="Category" asp-action="Index">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" asp-controller="Brand" asp-action="Index">Brands</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+          <li class="nav-item d-flex align-items-center">
+            <i class="mx-2 fa fa-facebook"></i>
+            <i class="mx-2 fa fa-instagram"></i>
+            <i class="mx-2 fa fa-twitter"></i>
+            <i class="mx-2 fa fa-tiktok"></i>
+            <i class="mx-2 fa fa-linkedin"></i>
+            <i class="mx-2 fa fa-youtube"></i>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" asp-controller="Account" asp-action="Login">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+          </li>
+          <li class="nav-item"  style="cursor: pointer;">
+            <a class="nav-link">Settings</a>
+          </li>
+          <li class="nav-item" style="cursor: pointer;">
+              <form asp-controller="Account" asp-action="Logout" method="post">
+                <input type="submit" class="nav-link btn btn-danger text-white" value="Log Out" />
+              </form>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link position-relative cart" asp-controller="Cart" asp-action="Index">
+              <i class="fa fa-shopping-cart text-main fa-lg"></i>
+              <span class="badge bg-main text-white position-absolute top-0 end-0">@ViewBag.CardItemsCount</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="bg-light">
+        <div class="p-5">
+            <h3 class="fw-bold">Get The FreshCard App</h3><br>
+            <p class="text-muted p-7">We Will Send You a Link, Open It On Your Phone To Download App</p>
+        </div>
+        <div class="px-5">
+            <form class="form-group row justify-content-around">
+                <input class="form-control" type="email" placeholder="Enter your email address here..." style="width: 80%;">
+                <input class="btn btn-success form-control" style="width: 12%;" type="button" value="submit" value="Share app Link">
+            </form>
+            <hr>
+            <div class="d-flex justify-content-between p-5">
+                <div class="d-flex gap-5">
+                    <span>Payment Patterns</span>
+                    <div class="d-flex gap-2">
+                        <img height="20" src="assets/vodafone.png" alt="">
+                        <img height="20" src="assets/etisalat.png" alt="">
+                        <img height="20" src="assets/orange.png" alt="">
+                    </div>
+                </div>
+
+                <div class="d-flex gap-5">
+                    <span>Get Deliveries With FreshCard</span>
+                    <div class="d-flex gap-2">
+                        <img height="20" src="assets/apple.png" alt="">
+                        <img height="20" src="assets/android.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("ValidationScriptSection", required: false)
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

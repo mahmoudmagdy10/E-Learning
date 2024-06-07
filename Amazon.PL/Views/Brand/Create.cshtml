@@ -1,0 +1,43 @@
+﻿@model Amazon.BL.Models.BrandVM;
+
+@{
+    ViewData["Name"] = "Add Brand";
+}
+
+<div>
+    <h2 class="form-control w-75 mx-auto py-4 text-center">Create New Brand</h2>
+</div>
+
+<div class="py-4">
+    <h4 class=" w-75 mx-auto py-4 text-center text-success ">@TempData["SuccessMsg"]</h4>
+</div>
+
+<div class="py-4">
+    <h4 class=" w-75 mx-auto py-4 text-center text-danger ">@TempData["ErrorMsg"]</h4>
+</div>
+
+
+<form class="form-group" asp-controller="Brand" asp-action="Create" enctype="multipart/form-data">
+
+    @*<div asp-validation-summary="All" class="text-danger"></div>*@
+    <label asp-for="Name">Name</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+
+    <label asp-for="Slug">Slug</label>
+    <input type="text" class="form-control" asp-for="Slug" />
+    <span asp-validation-for="Slug" class="text-danger"></span>
+    <br />
+
+    <label asp-for="ImageFile">Upload Cover</label>
+    <input type="file" class="form-control" asp-for="ImageFile" name="ImageFile" />
+    <span asp-validation-for="ImageFile" class="text-danger"></span>
+    <br />
+
+    <center>
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <input type="reset" value="Reset" class="btn btn-danger" />
+    </center>
+
+</form>

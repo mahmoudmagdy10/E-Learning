@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Amazon.PL.props" />
+</Project>
